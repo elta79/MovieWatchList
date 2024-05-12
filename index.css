@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{    
+    width: 550px;
+    height:auto;
+    margin: auto;
+    background-color: rgb(69, 68, 68);
+}
+
+header{
+    width: 550px;
+    height: 208px;
+    padding:10px;
+    background-color: rgb(95, 95, 95);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#placeholder{
+    height: 100dvh;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 50%;
+}
+h1{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+a{
+    font-size: 14px;
+    text-align: right;
+    text-decoration: none;
+    color:white;
+    padding-left: 40px;
+}
+
+main{
+    background-color: whitesmoke;
+}
+
+p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 18px;
+    
+}
+
+.search-container{
+    display:flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    width: 462px;
+    left:44px;
+}
+#movie-input{
+    width:342px;
+    height:38px;
+}
+#search-button{
+    width: 120px;
+    height: 38px;
+}
+section{
+    width:100%;
+    border-bottom: 1px solid gray;
+    padding: 20px 40px;
+}
+
+.movie-outer-container{
+    display: flex;
+}
+img{
+    width: 99px;
+    padding: 0 10px 20px 0;
+}
+.movie-inner-container{
+    padding-left: 10px;
+    width: 100%;
+}
+ .tier1-container{
+    display:flex;
+    align-items: center;
+    gap: 12px;        
+}
+
+.tier2-container{
+    display:flex;
+    align-items: center;    
+    gap:5%;
+    margin: 8px 0;
+}
+#movie-runtime, #movie-genre{
+    width: 100%;
+    
+}
+
+.add-button{
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    gap:5px;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;    
+}
+
+#button-icon{    
+    padding:0;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}  
+.movie-plot{
+    font-size: 14px;
+}
+
+footer{
+    min-height: 100px;
+}
+
