@@ -11,7 +11,7 @@ async function renderMovie(data){
         //this is to get the info for each title returned by the movie search
         
         try{
-            const res = await fetch(`http://www.omdbapi.com/?t=${movie.Title}&apikey=52d8a576&`)
+            const res = await fetch(`https://www.omdbapi.com/?t=${movie.Title}&apikey=52d8a576&`)
             if (!res.ok) throw Error ('Network response not ok')
             const data =await res.json()
 
@@ -81,7 +81,7 @@ async function renderMovie(data){
 
 searchButton.addEventListener("click", async () => {
     try{
-        const res = await fetch(`http://www.omdbapi.com/?s=${movieInput.value}*&apikey=52d8a576&`)
+        const res = await fetch(`https://www.omdbapi.com/?s=${movieInput.value}*&apikey=52d8a576&`)
         if (!res.ok) throw new Error('Network response not ok')
         const data = await res.json()
             placeholderEl.remove()
