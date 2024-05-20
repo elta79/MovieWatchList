@@ -25,7 +25,7 @@ function renderWatchlist(){
                             <p id="movie-runtime">${selectedMovie[i].Runtime}</p>
                             <p id="movie-genre">${selectedMovie[i].Genre}</p>                                
                             <p class="remove-button">  
-                                <img id="button-icon" src="plus.png">
+                                <img id="button-icon" src="minus.png">
                                 Remove
                             </p>  
                         </div>
